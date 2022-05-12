@@ -157,7 +157,14 @@ a:link {
 }
 
 footer {
+  /* display: flex; */
+  /* flex-direction: row; */
+  justify-content: space-around;
   text-align: center;
   margin-top: 200px;
-  font-size: 20px;
+  font-size: 17px;
+}
+footer  a {
+  margin-left: 20px;
+  font-size: 25px;
 }
