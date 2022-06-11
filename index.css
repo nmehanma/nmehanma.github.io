@@ -1,7 +1,7 @@
+/* @media screen and (min-width: 426px) { */
 body {
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
 }
 
 a:link {
@@ -11,8 +11,7 @@ a:link {
 .profile {
   justify-content: center;
   text-align: center;
-  padding-bottom: 400px;
-  padding-top: 125px;
+  padding-top: 10%;
 }
 .profile img {
   padding-bottom: 50px;
@@ -26,29 +25,34 @@ a:link {
   justify-content: center;
 }
 
-/* #navbarNav ul li {
-  flex-direction: row;
-  justify-content: center;
-} */
-
 .about {
-  padding-top: 350px;
+  padding-bottom: 20%;
   text-align: center;
   font-size: 25px;
-  scroll-margin-top: 20px;
+}
+.about div {
+  margin-bottom: 350px;
+  background-color: red;
+}
+
+.about p {
+  font-size: 70%;
+}
+
+.experience {
+  margin-top: 30%;
 }
 
 .project {
   text-align: center;
-
-  margin-top: 800px;
-  padding-top: 350px;
+  background-color: red;
+  padding-top: 20%;
   scroll-margin-top: 20px;
 }
 
 .project h3 {
   /* padding-bottom: 100px; */
-  margin-bottom: 600px;
+  margin-bottom: 100%;
   font-size: 40px;
 }
 
@@ -101,10 +105,11 @@ a:link {
 .skill h3 {
   text-align: center;
   /* margin-bottom: 50px; */
-  margin-top: 300px;
+  padding-top: 20%;
   margin-bottom: 400px;
   scroll-margin-top: 20px;
   font-size: 40px;
+  background-color: blue;
 }
 
 .technologies {
@@ -112,61 +117,140 @@ a:link {
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
-  justify-content: space-around;
-  margin-top: 700px;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 300px
+  background-color: yellow;
 }
 
 .technologies section {
   flex: 10%;
   margin: 100px;
-  /* border-radius: 70px; */
   height: 50px;
   width: 50px;
 }
 
 .connect h3 {
   text-align: center;
-  font-size: 40px;
-
-  /* margin-bottom: 50px; */
-  margin-top: 300px;
-  margin-bottom: 300px;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: brown;
   scroll-margin-top: 20px;
 }
 
-.meantime {
-  text-align: center;
-  font-size: 30px;
+.connect div {
+  padding-top: 5%;
 }
-
-
-
 
 .code-compile {
   text-align: center;
-  /* margin-top: 1000px; */
   scroll-margin-top: 100px;
 }
 
 .code-compile img {
   width: 60%;
-  /* height: 20%; */
-  margin-top: 100px;
-
 }
 
 footer {
-  /* display: flex; */
-  /* flex-direction: row; */
   justify-content: space-around;
   text-align: center;
-  margin-top: 200px;
-  font-size: 17px;
+  font-size: 20px;
 }
 footer a {
   margin-left: 20px;
   font-size: 25px;
+}
+
+@media only screen and (max-width: 426px) {
+  .profile img {
+    padding-bottom: 50px;
+    padding-top: 30px;
+    border-radius: 50%;
+    width: 70%;
+  }
+
+  .profile {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 70%;
+    padding-top: 50%;
+    background-color: lightblue;
+  }
+
+  .about {
+    background-color: red;
+    padding-top: 50%;
+  }
+  .project {
+    background-color: blue;
+  }
+  .skill {
+    background-color: yellow;
+  }
+  .tools {
+    margin-top: 300px;
+  }
+
+  .connect {
+    background-color: brown;
+    padding-top: 50%;
+    padding-bottom: 50%;
+  }
+
+  footer {
+    background-color: grey;
+    font-size: 15px;
+  }
+
+  .project {
+    padding-top: 80%;
+  }
+
+  .project-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 50%;
+    margin-bottom: 100px;
+  }
+  .project-1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .project-2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    margin-bottom: 100px;
+  }
+  .project-2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .tools {
+    display: flex;
+    flex-direction: column;
+  }
+  .skill h3 {
+    text-align: center;
+    scroll-margin-top: 20px;
+    font-size: 40px;
+  }
+
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .technologies section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
