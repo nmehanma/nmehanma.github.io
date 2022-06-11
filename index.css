@@ -179,6 +179,10 @@ footer a {
     background-color: red;
     padding-top: 50%;
   }
+  .experience{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .project {
     background-color: blue;
   }
