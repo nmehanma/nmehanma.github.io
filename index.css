@@ -32,7 +32,7 @@ a:link {
 }
 .about div {
   margin-bottom: 350px;
-  background-color: red;
+  background-color: #FFFAF0;
 }
 
 .about p {
@@ -176,7 +176,7 @@ footer a {
   }
 
   .about {
-    background-color: yellow;
+    background-color: lightblue;
     padding-top: 50%;
   }
   .experience {
