@@ -141,7 +141,8 @@ a:link {
 }
 
 .code-compile img {
-  width: 60%;
+  width: 40%;
+  padding-bottom: 40px;
 }
 
 footer {
@@ -156,8 +157,8 @@ footer a {
   font-size: 25px;
 }
 footer div {
-margin-left:20px;
-margin-right:20px
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 @media only screen and (max-width: 426px) {
