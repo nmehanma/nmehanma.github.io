@@ -140,7 +140,7 @@ a h3:hover {
 
 .code-compile {
   text-align: center;
-  scroll-margin-top: 100px;
+  /* scroll-margin-top: 100px; */
 }
 
 .code-compile img {
@@ -164,7 +164,7 @@ footer div {
   margin-right: 20px;
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 900px) {
   .profile img {
     padding-bottom: 50px;
     padding-top: 30px;
