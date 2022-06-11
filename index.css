@@ -8,6 +8,9 @@ body {
 a:link {
   text-decoration: none;
 }
+a h3:hover {
+  color: red;
+}
 
 .profile {
   justify-content: center;
@@ -27,13 +30,13 @@ a:link {
 }
 
 .about {
-  padding-bottom: 20%;
+  padding-bottom: 30%;
   text-align: center;
   font-size: 25px;
 }
-.about div {
+/* .about div {
   margin-bottom: 350px;
-}
+} */
 
 .about p {
   font-size: 70%;
@@ -41,7 +44,6 @@ a:link {
 
 .experience {
   margin-top: 20%;
-
 }
 
 .project {
@@ -52,7 +54,7 @@ a:link {
 
 .project h3 {
   /* padding-bottom: 100px; */
-  margin-bottom: 100%;
+  margin-bottom: 50%;
   font-size: 40px;
 }
 
