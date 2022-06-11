@@ -251,6 +251,12 @@ footer a {
     text-align: center;
     justify-content: space-around;
   }
+  .technologies a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .technologies section {
     display: block;
     margin-left: auto;
