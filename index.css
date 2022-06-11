@@ -32,7 +32,7 @@ a:link {
 }
 .about div {
   margin-bottom: 350px;
-  background-color: #FFFAF0;
+  background-color: #fffaf0;
 }
 
 .about p {
@@ -45,7 +45,6 @@ a:link {
 
 .project {
   text-align: center;
-  background-color: red;
   padding-top: 20%;
   scroll-margin-top: 20px;
 }
@@ -172,25 +171,27 @@ footer a {
     text-align: center;
     padding-bottom: 70%;
     padding-top: 50%;
-    background-color: #FFFAF0;
+    background-color: #fffaf0;
   }
 
   .about {
-    background-color: lightblue;
     padding-top: 50%;
   }
   .experience {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .project {
-    background-color: blue;
-  }
+
   .skill {
     background-color: yellow;
   }
   .tools {
     margin-top: 300px;
+  }
+  .tools a h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
   }
 
   .connect {
@@ -206,6 +207,14 @@ footer a {
 
   .project {
     padding-top: 80%;
+    background-color: #fffaf0;
+    /* background-color: lightblue; */
+  }
+
+  .project div a h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
   }
 
   .project-1 {
@@ -240,7 +249,7 @@ footer a {
   .skill h3 {
     text-align: center;
     scroll-margin-top: 20px;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .technologies {
